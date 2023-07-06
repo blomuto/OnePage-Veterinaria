@@ -1,0 +1,120 @@
+*{margin: 0%; padding: 0; box-sizing: border-box;}
+@font-face{
+    src: url("../fonts/calibrib.ttf");
+    font-family: "Calibri-Bold";
+}
+@font-face{
+    src: url("../fonts/calibri.ttf");
+    font-family: "Calibri-Regular";
+}
+@font-face{
+    src: url("../fonts/GothamBlack.otf");
+    font-family: "Gotham-Black";
+}
+.fuente-bold{
+    font-family: "Calibri-Bold";
+}
+.fuente-regular{
+    font-family: "Calibri-Regular";
+}
+.fuente-titulos{
+    font-family: "Gotham-Black";
+}
+.whatsapp{
+    right: 0px;
+    top: 75%;
+    z-index: 999;
+    position: fixed;
+}
+.miheader{
+    background-color: #4C2C5B;
+}
+.VeterinariadelSur-logo{
+    max-height: 100px;
+    max-width: 100%;
+}
+.menupc{
+    display: flex;
+    justify-content: left;
+}
+.enlaces{
+    color: white!important;
+}
+.enlaces:hover{
+    color: #f7941d !important;
+}
+.fondo-blog{
+    background: url(../img/fondo-blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color-naranja{
+    color: #E98009;
+}
+.color-violeta{
+    color: #4C2C5B;
+}
+.fondo-patitas{
+    background: url(../img/fondo-patitas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vermas2{
+    background-color:  #E98009;
+    color: white;
+}
+.vermas2:hover{
+    background-color: #6e3c03;
+    color: white;
+}
+.fondo-footer{
+    background: url(../img/fondo-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colorIcon{
+    color: white;
+}
+p{
+    font-size: 1em;
+}
+.campos{
+    background-color: #F5F5F5;
+}
+.derechos{
+    color: #b3b3b3;
+}
+.xivo{
+    color: #dfdfdf;
+    text-decoration: none;
+}
+.xivo:hover{
+    color: white;
+}
+.chico{
+    display: flex;
+    align-items: flex-end;
+}
+.type-footer{
+    color: white;
+}
+.enlace-footer{
+    color: white;
+}
+.enlace-footer:hover{
+    color: #c5c1c1;
+}
+.ir-arriba{
+    display: inline-block;
+    padding: 10px;
+    background: #030833;
+    font-size:20px;
+    color: #F5F5F5;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+.ir-arriba:hover{
+    background: #979593;
+}

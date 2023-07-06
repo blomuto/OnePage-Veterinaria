@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Basicos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>VETERINARIA DEL SUR</title>
+    <!--FavIcon - poner mi ruta -->
+    <link rel="icon" href="img/ico-vetdelsur.ico">
+    <!--Buscadores - poner mis referencias-->
+    <meta name="keywords" content="veterinario, cirugia, castraciones, medicamento, antipulgas, correas, rascadores, alimentos balanceados, pet shop, traslados de mascotas, animales, mascotas, gato, perro">
+    <meta name="description" content="VETERINARIA DEL SUR | Clínica médica, cirugías, medicamentos, alimentos balanceados, pet shop, traslados de mascotas.">
+    <meta name="author" content="Xivo Estudio Creativo">
+    <meta name="copyright" content="Xivo Estudio Creativo"> 
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--FancyBox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!--Hover CSS-->
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <!--reCaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!--Estilos - poner mi ruta -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="whatsapp">
+        <a href="https://wa.me/5492235296385" target="_blank" title="whatsapp">
+            <img src="img/whatsapp.png" alt="whatsapp" title="whatsapp">
+        </a>
+    </div>
+
+    <!-- Boton hacia arriba -->
+    <div class="ir-arriba d-none d-md-block">
+        <a href="#header"><i class="fas fa-chevron-up ir-arriba"></i></a>
+    </div>
+
+    <div class="bg-light">
+        <div class="container">
+            <p class="fuente-bold text-right py-2 m-0" style="color: gray;">HORARIOS DE ATENCIÓN: LUNES A VIERNES 9 A 19 HS. | SÁBADOS 9 A 14 HS. </p>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md miheader px-4 py-3 m-0" id="header">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/VeterinariaSur-logo.png" alt="Veterinaria del Sur" class="VeterinariadelSur-logo">
+            </a>
+            <!--boton hamburguer-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <i class="fa fa-bars blanco"></i>
+            </button>
+            <!--menu de navegacion-->        
+            <div class="collapse navbar-collapse menupc justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav fuente-bold text-right">
+                    <li class="nav-item">
+                        <a class="nav-link enlaces px-3" href="#nosotros">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces px-3" href="#equipo">EQUIPO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces px-3" href="#servicios">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces px-3" href="#contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--banners sliders-->
+    <aside class="container-fluid p-0 m-0">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#servicios">
+                        <img class="d-none d-md-block w-100" src="img/banner-1.jpg" alt="Servicios">
+                        <img class="d-block d-md-none w-100" src="img/banner-1-mobile.jpg" alt="Servicios">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-none d-md-block w-100" src="img/banner-2.jpg" alt="Tecnologia">
+                    <img class="d-block d-md-none w-100" src="img/banner-2-mobile.jpg" alt="Tecnologia">
+                </div>
+                <div class="carousel-item">
+                    <a href="https://wa.me/5492235296385" target="_blank" title="whatsapp">
+                        <img class="d-none d-md-block w-100" src="img/banner-3.jpg" alt="Servicios">
+                        <img class="d-block d-md-none w-100" src="img/banner-3-mobile.jpg" alt="Servicios">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#servicios">
+                        <img class="d-none d-md-block w-100" src="img/banner-4.jpg" alt="Servicios">
+                        <img class="d-block d-md-none w-100" src="img/banner-4-mobile.jpg" alt="Servicios">
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </aside>
+
+    <section class="container-fluid p-0 m-0">
+        <div class="fondo-blog">
+            <div class="text-white py-1 text-center">
+                <h4 class="fuente-regular pt-2">Sé parte de nuestra comunidad y unite a nuestro <span class="fuente-bold"> BLOG!</span></h4>
+                <a href="https://www.google.com/maps/uv?pb=!1s0x9584ddd8336d65eb%3A0x29d9aa7d4f8ee903!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO9oz_Dh1F27qqWiSV2Pg-xJeXAFCGbA3QQNY5e%3Dw213-h160-k-no!5sveterinariadelsur%20-%20Buscar%20con%20Google!15sCgIgAQ&imagekey=!1e10!2sAF1QipO9oz_Dh1F27qqWiSV2Pg-xJeXAFCGbA3QQNY5e&hl=es&sa=X&ved=2ahUKEwiRuZjttIrwAhUIqZUCHUjxDR0QoiowF3oECCYQAw" target="_blank">
+                    <button type="button" class="btn btn-outline-warning text-white mb-2 fuente-bold">CONOCÉ MÁS</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Historia-->
+    <section class="container-fluid px-0 py-4 m-0" id="nosotros">
+        <div class="container">
+            <div class="row fuente-regular">
+                <div class="col-lg-7 col-md-12 col-sm-12 p-3">
+                    <h2 class="fuente-titulos animate__animated animate__fadeInDown py-3 mb-0 color-naranja">NUESTRA HISTORIA</h2>
+                    <p class="py-1 m-0">Durante toda mi infancia, y hasta los 14 años, no pude tener mi propia mascota, por diferentes motivos, pero un día llegó Isis, de 45 días de vida. A partir de ese momento todo fue diferente.</p>
+                    <p class="py-1 m-0">Mi atracción por los animales salvajes, domésticos y de campo, se acrecentó a punto tal de que confirme lo que merodeaba por mi cabeza hacia un tiempo. Decidí que iba a ser Veterinario.</p>
+                    <p class="py-1 m-0">Me encantaban las ciencias y me intrigaban los desafíos que presentaba la medicina.</p>
+                    <p class="py-1 m-0">Luego de cumplir con el servicio militar obligatorio, a los 19 años comencé la carrera de Veterinaria en la Facultad de la Universidad del Centro de la Provincia de Buenos Aires, en la Ciudad de Tandil. 6 años más tarde obtuve mi título y en febrero del año 2000 comencé mi primer trabajo en medicina veterinaria en una clínica de la ciudad de Mar del Plata.</p>
+                    <p class="py-1 m-0">Este camino siempre fue más fácil gracias a recorrerlo con mi compañera de vida, la Médica Veterinaria Leticia Ordoñez, con quien luego de casarnos en abril del año 2003, logramos inaugurar por el mes de agosto del mismo año, nuestra propia Veterinaria <span class="fuente-bold">"Veterinaria del Sur"</span>.</p>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block w-100">
+                    <img src="img/nosotros.jpg" alt="Veterinaria" class="w-100">
+                </div>
+            </div>
+
+            <div class="row fuente-regular">
+                <div class="col-lg-5 col-md-12 col-sm-12 pt-3">
+                    <img src="img/todos-veterinaria.jpg" alt="Sobre-Nosotros" class="w-100">
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 p-3">
+                    <p class="py-1 m-0">Estoy agradecido de haber logrado el sueño de toda mi vida y me siento honrado por la confianza depositada en mí, no solo por mis pacientes sino también por la gente que los ama.</p>
+                    <p class="py-1 m-0">Cuanto más pasan los años, más disfruto las relaciones duraderas que mantengo con mis clientes, que nos permiten garantizar que las mascotas que ellos aman reciban la mejor atención posible y sean tratadas siempre con cariño, compasión y respeto.</p>
+                    <p class="py-1 m-0">Cuando no estoy con mis pacientes, suelo estar en casa junto mis hijos, Juan Pedro, Mariano y Augusto y mis otros hijos, nuestra gatita luna, Kira, nuestra perra y dos peces longevos.</p>
+                    <p class="py-1 m-0">Disfruto mucho de las actividades deportivas, especialmente el fútbol y la natación. Acompaño a mis hijos en su pasión por el surf, quienes quieren que aprenda y pueda compartir este y muchos desafíos, disfrutando de todas las aventuras en familia.</p>
+                    <p class="py-1 m-0">Por nuestras vidas han pasado muchos animales, de tránsito en guardería y propios. A todos les damos nuestro amor y atención incondicional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Equipo-->
+    <section class="container-fluid p-0 m-0" id="equipo">
+        <div class="fondo-patitas">
+            <div class="container">
+                <h2 class="fuente-titulos animate__animated animate__fadeInDown py-3 mb-0 color-violeta text-center">EQUIPO</h2>
+                <div class="row fuente-regular text-center justify-content-center d-flex">
+                    <div class="col-lg-3 col-md-4 col-sm-12 p-3 animate__animated animate__fadeIn">
+                        <img src="img/gonzalo.jpg" alt="Gonzalo Cino" width="80%">
+                        <p class="pt-3 m-0 fuente-bold">Dr. Gonzalo Cino</p>
+                        <p class="p-0 m-0">Director.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 p-3 animate__animated animate__fadeIn">
+                        <img src="img/agustin-giraudo.jpg" alt="Agustin Giraudo" width="80%">
+                        <p class="pt-3 m-0 fuente-bold">Dr. Agustín Giraudo</p>
+                        <p class="p-0 m-0">Veterinario.</p>
+                        <p class="p-0 m-0">Tengo 29 años. Viví mi infancia en Otamendi, dónde descubrí mi pasión por los animales domésticos, especialmente perros y gatos, y por la medicina. Me recibí en la facultad de Veterinaria en Tandil en 2018. Comencé a trabajar en Veterinaria del Sur hace 3 años. En mis ratos libres me gusta escuchar mucha música y mirar series.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 p-3 animate__animated animate__fadeIn">
+                        <img src="img/ayelen-ismael.jpg" alt="Ayelen Ismael" width="80%">
+                        <p class="pt-3 m-0 fuente-bold">Dra. Ayelén Ismael</p>
+                        <p class="p-0 m-0">Veterinaria.</p>
+                        <p class="p-0 m-0">Tengo 32 años. Desde muy chiquita supe que veterinaria era lo que quería ser cuando fuera grande, ya que no había un perrito o gatito al que no quisiera tocar! Me recibí de la facultad de Tandil en el 2016, y desde el año 2017 trabajo en Clínica Veterinaria del Sur. En mis tiempos libres amo estar con mi familia al aire libre y jugar al pádel.</p>
+                    </div>
+                </div>
+                <div class="row fuente-regular text-center justify-content-center d-flex">
+                    <div class="col-lg-3 col-md-4 col-sm-12 p-3 animate__animated animate__fadeIn">
+                        <img src="img/valentina-caramello.jpg" alt="Valentina Caramello" width="80%">
+                        <p class="pt-3 m-0 fuente-bold">Valentina Caramello</p>
+                        <p class="p-0 m-0">Auxiliar.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 p-3 animate__animated animate__fadeIn">
+                        <img src="img/sebas-ezcurra.jpg" alt="Sebastian Ezcurra" width="80%">
+                        <p class="pt-3 m-0 fuente-bold">Sebastián Ezcurra</p>
+                        <p class="p-0 m-0">Auxiliar.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 p-3 animate__animated animate__fadeIn">
+                        <img src="img/nacho-ezcurra.jpg" alt="Nacho Ezcurra" width="80%">
+                        <p class="pt-3 m-0 fuente-bold">Nacho Ezcurra</p>
+                        <p class="p-0 m-0">Auxiliar.</p>
+                        <p class="p-0 m-0">Traslados. Peluquería canina.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- servicios -->
+    <section class="container-fluid px-0 py-3 m-0 bg-light" id="servicios">
+        <div class="container">
+            <div class="text-center py-4">
+                <h2 class="fuente-titulos color-violeta animate__animated animate__fadeInDown">NUESTROS SERVICIOS</h2>
+            </div>
+            <div class="row text-center py-2">
+                <div class="col-lg-4 col-md-4 col-sm-6 py-4">
+                    <div class="m-0 hvr-float text-center">
+                        <img src="img/clinica-medica.png" alt="Clinica Medica" width="50%">
+                        <p class="pt-2 m-0 fuente-bold">Clínica Médica</p>
+                        <p class="p-0 m-0 fuente-regular">de pequeños animales.</p>
+                        <p class="p-0 m-0 fuente-regular">Vacunación.</p>
+                        <a href="https://youtu.be/0NRhArz_1rY" data-fancybox data-width="640" data-height="360">
+                            <i class="color-violeta fuente-bold">Ver video ></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 py-4">
+                    <div class="m-0 hvr-float text-center">
+                        <img src="img/cirugias.png" alt="Cirugias" width="30%">
+                        <p class="pt-2 m-0 fuente-bold">Cirugías</p>
+                        <p class="p-0 m-0 fuente-regular">Cirugía general y de mayor complejidad.</p>
+                        <p class="p-0 m-0 fuente-regular">Castraciones.</p>
+
+                        <i class="color-violeta fuente-bold px-2" data-toggle="modal" data-target=".bd-example2-modal-lg">Más info ></i>
+                        
+                        <a href="https://youtu.be/16ZJd2MvK1k" data-fancybox data-width="640" data-height="360">
+                            <i class="color-violeta fuente-bold px-2">Ver video ></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal de mas info-->
+                <div class="modal fade bd-example2-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title fuente-titulos color-violeta" id="exampleModalLabel2">SERVICIOS VETERINARIOS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body fuente-regular">
+                            <p class="p-0 m-0">Esterilización Canina y Felina | Politraumatismos.</p>
+                            <p class="pb-2 m-0">Plan de vacunas animal sano.</p>
+                            <p class="fuente-bold pb-0 m-0">TRATAMIENTOS:</p>
+                            <p class="p-0 m-0">TVT, Parvovirus,</p>
+                            <p class="p-0 m-0">Síndrome Felino Urinario y otras enfermedades.</p>
+                            <p class="p-0 m-0">Otitis y lavado de oídos.</p>
+                            <p class="pb-2 m-0">Limpieza Dental en Caninos y Felinos.</p>
+                            <p class="fuente-bold pb-0 m-0">CIRUGÍAS DE MAYOR COMPLEJIDAD:</p>
+                            <p class="pb-2 m-0">Fecalomas, Tumores, Abscesos, Enucleación, Cesárea, Endometritis, Cirugías Oculares, Esplerectomia, Abscesos y otras</p>
+                            <p class="fuente-bold pb-0 m-0">HOSPITALIZACIÓN AMBULATORIA | CONSULTA GENERAL:</p>
+                            <p class="p-0 m-0">Instalación de Microchips de Identificación de Animales.</p>
+                            <p class="p-0 m-0">Exámenes Parvovirus, Distemper, Leucemia e Inmunodeficiencia Felina.</p>
+                            <p class="pb-2 m-0">Farmacia Veterinaria.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 py-4">
+                    <div class="m-0 hvr-float text-center">
+                        <img src="img/medicamentos.png" alt="Venta de medicamentos" width="30%">
+                        <p class="pt-2 m-0 fuente-bold">Venta de medicamentos</p>
+                        <p class="p-0 m-0 fuente-regular">bombones y comprimidos antipulgas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 py-4">
+                    <div class="m-0 hvr-float text-center">
+                        <img src="img/pet-shop.png" alt="Pet Shop" width="20%">
+                        <p class="pt-2 m-0 fuente-bold">Pet Shop</p>
+                        <p class="p-0 m-0 fuente-regular">Dulces, bolsos transportadores, comederos y bebederos, rascadores, juguetes, ropa, cuchas, correas y collares. Perfumes y aseo.</p>
+                        <a href="https://youtu.be/Sx9r2GS-QhE" data-fancybox data-width="640" data-height="360">
+                            <i class="color-violeta fuente-bold">Ver video ></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 py-4">
+                    <div class="m-0 hvr-float text-center">
+                        <img src="img/alimentos-balanceados.png" alt="Alimentos balanceados" width="43%">
+                        <p class="pt-2 m-0 fuente-bold">Alimentos balanceados</p>
+                        <p class="p-0 m-0 fuente-regular">Royal Canin, Proplan, Sieger,</p>
+                        <p class="p-0 m-0 fuente-regular">Old Prince, Excellent.</p>
+                        <a href="https://youtu.be/EWmjq3bNORs" data-fancybox data-width="640" data-height="360">
+                            <i class="color-violeta fuente-bold">Ver video ></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 py-4">
+                    <div class="m-0 hvr-float text-center">
+                        <img src="img/traslados.png" alt="Traslados de mascotas" width="50%">
+                        <p class="pt-2 m-0 fuente-bold">Traslados de mascotas</p>
+                        <p class="p-0 m-0 fuente-regular">Puerta a puerta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--     formas de pago -->
+    <div style="background-color: #E98009;">
+        <div class="container py-4">
+            <div class="text-center">
+                <h4 class="fuente-titulos text-white">FORMAS DE PAGO</h4>
+            </div>
+            <p class="fuente-regular text-center text-white py-2 m-0">Tarjeta de débito / crédito | Mercado Pago | Cuenta DNI | Transferencia bancaria | Efectivo. </p>
+        </div>
+    </div>
+
+
+
+    <!-- CONTACTANOS -->
+    <section class="container-fluid px-0 pt-4 m-0" id="contacto">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fuente-titulos color-violeta animate__animated animate__fadeInDown">CONTACTANOS</h2>
+                <h6 class="fuente-regular">Dejanos tu consulta y nos comunicaremos a la brevedad.</h6>
+            </div>
+            <div class="row fuente-regular d-flex justify-content-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center chico">
+                    <img src="img/contactanos2.jpg" alt="Contactanos" width="100%" class="animate__animated animate__fadeInLeft">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 py-3 text-center animate__animated animate__fadeInRight">
+                    <form action="enviar.php" method="POST" id="form_contacto" subject="Consulta enviada desde la Web">
+                        <div class="form-group p-0 m-0 ">
+                            <label for="nombre"></label>
+                            <input 
+                            type="text" 
+                            class="form-control campos" 
+                            id="nombre" 
+                            name="nombre"
+                            placeholder="Nombre y Apellido" 
+                            required>
+                        </div>
+
+                        <div class="form-group p-0 m-0">
+                            <label for="mail"></label>
+                            <input 
+                            type="email" 
+                            class="form-control campos" 
+                            id="mail" 
+                            name="mail"
+                            placeholder="Mail" 
+                            pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" 
+                            required>
+                        </div>
+
+                        <div class="form-group p-0 m-0 ">
+                            <label for="telefono"></label>
+                            <input 
+                            type="tel" 
+                            class="form-control campos" 
+                            id="telefono" 
+                            name="telefono"
+                            placeholder="Teléfono" 
+                            required>
+                        </div>
+
+                        <div class="form-group p-0 m-0">
+                            <label for="asunto"></label>
+                            <input 
+                            type="text" 
+                            class="form-control campos" 
+                            id="asunto"
+                            name="asunto" 
+                            placeholder="Asunto" 
+                            required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="consulta"></label>
+                            <textarea 
+                            class="form-control campos" 
+                            id="consulta" 
+                            name="consulta"
+                            placeholder="Escribe aquí tu consulta" 
+                            rows="3"
+                            ></textarea>
+                        </div>
+
+                        <div style="text-align: center;">
+                            <div class="g-recaptcha" data-sitekey="6LcWybAaAAAAABb8Ag0jlL508-Aizm9ZGaco1IXZ"
+                            style="display: inline-block;"></div>
+                        </div>
+
+                        <div class="text-center py-3">
+                            <button type="submit" value="Submit" class="btn vermas2 w-50">ENVIAR MENSAJE</button>
+                        </div>
+                        
+                        <div class="alert alert-success mt-4" role="alert">
+                            Tu mensaje ha sido enviado exitosamente!
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+   <!-- FOOTER -->
+   <footer class="container-fluid fondo-footer p-0 m-0 fuente-regular">
+        <div class="container">
+            <div class="row py-5 type-footer">
+                <div class="col-lg-3 col-md-6 col-sm-6 p-1 text-center">
+                    <div class="m-0 py-1">
+                        <i class="far fa-envelope h1"></i>
+                        <p class="p-0 m-0 fuente-bold"> Mail:</p>
+                        <a href="mailto:info@veterinariadelsur.com.ar" class="enlace-footer">
+                            <p class="p-0 m-0">info@veterinariadelsur.com.ar</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 p-1 text-center">
+                    <div class="m-0 py-1">
+                        <i class="fas fa-phone-alt h1"></i>
+                        <p class="p-0 m-0 fuente-bold">Teléfono:</p>
+                        <p class="p-0 m-0">0223 489-3126</p>
+                        <p class="pt-2 m-0 fuente-bold">Whatsapp:</p>
+                        <a href="https://wa.me/5492235296385" target="_blank" class="enlace-footer">
+                            <p class="p-0 m-0">2235296385</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 p-1 text-center">
+                    <div class="m-0 py-1">
+                        <a href="https://www.google.com/maps/place/Veterinaria+%22Del+Sur%22/@-38.034428,-57.550574,15z/data=!4m5!3m4!1s0x0:0x29d9aa7d4f8ee903!8m2!3d-38.034428!4d-57.550574" target="_blank">
+                            <i class="fas fa-map-marker-alt colorIcon h1"></i>
+                        </a>
+                        <p class="p-0 m-0 fuente-bold">Dirección:</p>
+                        <p class="p-0 m-0">Juan B Justo 865</p>
+                        <p class="p-0 m-0">Mar del Plata.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 p-1 text-center">
+                    <div class="m-0 py-1">
+                        <i class="far fa-clock h1"></i>
+                        <p class="p-0 m-0 fuente-bold"> Horarios de atención:</p>
+                        <p class="p-0 m-0"> Lunes a Viernes 9 a 19 hs.</p>
+                        <p class="p-0 m-0"> Sábados 9 a 14 hs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-1 text-center">
+                    <div class="m-0 py-1">
+                        <a href="https://www.facebook.com/clinvetdelsur" target="_blank">
+                            <i class="fab fa-facebook-square colorIcon h1"></i>
+                        </a>
+                        <a href="https://www.instagram.com/veterinariadelsurmdp/" target="_blank">
+                            <i class="fab fa-instagram colorIcon h1"></i>
+                        </a>
+                        <p class="p-0 m-0 fuente-bold">¡Seguinos!</p>
+                        <p class="p-0 m-0">Conocé todos nuestros productos, promociones y más</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="container-fluid fuente-regular bg-dark">
+        <div class="container text-center">
+            <p class="py-2 m-0 derechos"> 2021 © Todos los derechos reservados. | Diseño <a href="https://www.xivo.com.ar/" target="_blank" class="xivo">Xivo Estudio Creativo</a>. Desarrollo <a href="https://www.daino.com.ar/" target="_blank" class="xivo">Daino Branding & Web</a>.</p>
+        </div>
+    </div>
+
+
+    <!--JS Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!--JS FancyBox-->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</body>
+</html>
